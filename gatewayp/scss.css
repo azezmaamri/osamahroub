@@ -1,0 +1,736 @@
+*{padding:0; margin:0; box-sizing: border-box; font-family:sans-serif;}
+.wolfff{
+	width: 100vw;
+	min-height: 100vh;
+	background: #fff;
+	font-size: 1.2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container{
+	background: white;
+	max-width: 800px;
+	min-height: 500px;
+	display: flex;
+	justify-content:space-between;
+	align-items: flex-start;
+	padding: 0.5rem 1.5rem;
+}
+.left{
+	flex-basis: 50%;
+}
+.right{
+	flex-basis: 50%;
+}
+form{
+	padding: 1rem;
+	
+}
+.container {
+	border: 1px solid #D5D5D5;
+	box-shadow: 0px 18px 44px -27px rgb(0 0 0 / 50%);
+}
+
+h3{
+	margin-top: 1rem;
+	color:#2c3e50;
+	}
+
+form input[type="text"]{
+	width: 100%;
+	padding: 0.5rem 0.7rem;
+	margin: 0.5rem 0;
+	outline: none;
+}
+
+#zip{
+	display: flex;
+	margin-top: 0.5rem;
+}
+#zip select{
+	padding: 0.5rem 0.7rem;
+}
+#zip input[type="number"]{
+	padding: 0.5rem 0.7rem;
+	margin-left: 5px;	
+}
+input[type="submit"]{
+	width: 100%;
+	padding: 0.7rem 1.5rem;
+	background: #34495e;
+	color: white;
+	border: none;
+	outline: none;
+	margin-top: 1rem;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover{
+	background: #2c3e50;
+}
+
+.mywolf {
+	text-align: center;
+    margin: auto;
+    width: 700px;
+    height: 70px;
+	border: 1px solid black;
+    border-radius: 20px;
+	background: linear-gradient(indigo, indigo, navy);
+	box-shadow: 0px 18px 44px -27px rgb(0 0 0 / 50%);
+	margin-top: -35px;
+}
+.mywolf h2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    color: white;
+}
+
+.wolfteam1 {
+    height: auto;
+    margin: auto;
+    margin: auto;
+}
+#wolfteam2 {
+	text-align: center;
+	direction: ltr;
+	margin: auto;
+	color: white;
+	font-size: 23px;
+	font-weight: 900;
+	margin-left: 10px;
+}
+#wolfteam2 span {
+	color: rgb(92, 192, 92);
+	font-weight: 700;
+}
+#wolfteam2 h5 {
+	text-align: center;
+	margin-top: 5px;
+}
+#rol {
+	color: navy;
+}
+
+.logo1 {
+	width: 100%;
+	height: 500px;
+}
+.logo2 {
+	width: 100%;
+	height: 500px;
+	background-image: url(assets/img/a7mad.corse.jpg);
+	background-size: cover !important;
+	margin: auto;
+	text-align: center;
+}
+.teammy {
+	width: 100%;
+	height: 400px;
+	background-image: url(gatewayp/assets/img/pexels-ivan-babydov-7788009\ \(1\).jpg);
+	background-size: cover !important;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 100px;
+}
+
+
+
+
+.teamm1 {
+	margin: auto;
+	text-align: center;
+	align-items: center;
+	margin-top: 20px;
+	width: 1000px;
+	height: 500px;
+	margin-top: 20px;
+
+
+}
+
+.a7mad1 {
+	background: navy;
+	border-radius: 50%;
+	width: 450px;
+	height: 450px;
+	display: flex;
+	margin: auto;
+	align-items: center;
+	text-align: center;
+	margin-right: 20%;
+	margin-top: -400px;
+}
+
+
+
+
+.a7mad1 img {
+	width: 400px;
+	display: flex;
+	margin: auto;
+	margin-top: -200px;
+}
+
+
+
+#spam1 {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.textt1 {
+	display: inline-block;
+	width: 400px;
+	height: 400px;
+	border: 5px solid black;
+	display: flex;
+	margin: auto;
+	margin-left: 30%;
+	margin-top: 50px;
+	font-size: 20px;
+	background-color: black;
+	overflow: hidden;
+}
+.textt1 p {
+	margin: auto;
+	text-align: center;
+	font-size: 25px;
+	color: black;
+	background: black;
+	height: 400px;
+	width: 400px;
+	margin-top: 85px;
+}
+
+
+
+
+
+fieldset{
+	margin: auto;
+	text-align: center;
+	height: 460px;
+	width: 500px;
+	border: 1px solid black;
+	font-size: 18px;
+}
+legend {
+	margin: auto;
+	text-align: center;
+}
+
+#span2 {
+	color: #FF1493;
+	margin-top: 5px;
+	font-size: 23px;
+	font-weight: 700;
+}
+
+
+#img1 {
+	width: 100px;
+}
+
+
+#bill_name {
+	border: 2px solid black;
+}
+
+
+.wool1 {
+	margin-bottom: 1px;
+}
+
+
+
+
+
+
+
+.logo4 {
+	text-align: center;
+	margin: auto;
+	color: black;
+	text-decoration: none;
+	font-size: 33px;
+	margin-top: 20px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+.logo4:hover {
+	color: navy;
+}
+#wolfteam2 {
+	display: flex;
+	border: 1px solid #D5D5D5;
+	box-shadow: 0px 18px 44px -27px rgb(0 0 0 / 50%);
+	margin-top: 10px;
+	background-image: url(https://images.pexels.com/photos/12214884/pexels-photo-12214884.jpeg?cs=srgb&dl=pexels-marek-piwnicki-12214884.jpg&fm=jpg);
+	margin: auto;
+	text-align: center;
+	border-radius: 5px;
+	height: 70px;
+	margin-top: 5px;
+}
+#wolfteam2 p {
+	text-align: center;
+	margin: auto;
+}
+
+
+
+
+
+
+
+
+
+#wolfteam3 {
+	display: flex;
+	border: 1px solid #D5D5D5;
+	box-shadow: 0px 18px 44px -27px rgb(0 0 0 / 50%);
+	margin-top: 10px;
+	background-image: url(https://images.pexels.com/photos/12319913/pexels-photo-12319913.jpeg?cs=srgb&dl=pexels-jhovani-morales-12319913.jpg&fm=jpg);
+	margin: auto;
+	text-align: center;
+	border-radius: 5px;
+	height: 70px;
+	margin-top: 5px;
+}
+#wolfteam3 p {
+	text-align: center;
+	margin: auto;
+}
+
+
+
+
+
+#wolfteam2 input[type="checkbox"] {
+	border-radius: 50%;
+	margin-right: 10px;
+	width: 15px;
+}
+#wolfteam3 input[type="checkbox"] {
+	border-radius: 50%;
+	margin-right: 10px;
+	width: 15px;
+}
+#wolfteam2 a{
+	margin: auto;
+	text-align: center;
+	height: 100%;
+	border: 1px solid #D5D5D5;
+	width: 80%;
+	
+}
+#wolfteam2 button{
+	height: 100%;
+	width: 103px;
+	border: none;
+	background: none;
+	color: white;
+	font-size: 18px;
+	margin: auto;
+	width: 80%;
+}
+
+
+
+
+
+
+
+
+#wolfteam3 a{
+	margin: auto;
+	text-align: center;
+	height: 100%;
+	border: 1px solid #D5D5D5;
+	width: 80%;
+	font-weight: 700;
+
+}
+#wolfteam3 button{
+	height: 100%;
+	width: 103px;
+	border: none;
+	background: none;
+	color: white;
+	font-size: 18px;
+	margin-right: -20px;
+	margin: auto;
+	width: 80%;
+}
+
+#wolfteam3 button {
+	cursor: pointer;
+}
+#wolfteam2 button {
+	cursor: pointer;
+}
+
+.show1 {
+	width: 500px;
+	height: 400px;
+	border: 2px solid #D5D5D5;
+	margin: auto;
+	display: inline-block;
+	text-align: center;
+	justify-content: center;
+	border-radius: 5px;
+	font-size: 20px;
+	margin-top: 5px;
+}
+.show2 {
+	width: 500px;
+	height: 460px;
+	border: 2px solid #D5D5D5;
+	margin: auto;
+	display: inline-block;
+	text-align: center;
+	justify-content: center;
+	border-radius: 5px;
+	font-size: 20px;
+	margin-top: 5px;
+	margin-bottom: 100px;
+}
+.show2 input[type="submit"] {
+	background: #34495e;
+	border-radius: 1px;
+	border: 1px solid black;
+	color: white;
+	font-size: 18px;
+	box-shadow: 0px 18px 44px -27px rgb(0 0 0 / 50%);
+	width: 30%;
+	text-align: center;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 5px;
+	margin-bottom: 5px;
+	display: block;
+}
+#email1 {
+	width: 100%;
+	height: 40px;
+	padding: 10px;
+}
+
+#mmuny1 {
+	width: 80%;
+}
+.textt1 {
+	display: inline-block;
+	width: 400px;
+	height: 400px;
+	border: 5px solid black;
+	display: flex;
+	margin: auto;
+	margin-left: 10%;
+	margin-top: 50px;
+	font-size: 20px;
+	background: white;
+	overflow: hidden;
+}
+
+.teamm1 {
+	width: 1150px;
+	margin: auto;
+}
+
+
+.like1 {
+    display: inline-block;
+    margin: auto;
+	color: black;
+	text-align: center;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+.like2 {
+	display: inline-block;
+    margin: auto;
+	color: rgb(97, 218, 97);
+	text-align: center;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+.wool1 {
+	display: inline-block;
+}
+#bill_name {
+	text-align: center;
+}
+
+
+#mhmod111 {
+	color: white;
+	font-size: 60px;
+	text-decoration: none;
+	margin: auto;
+	display: inline-block;
+	margin-top: 170px;
+	font-weight: 900;
+}
+
+#mhmod111:hover {
+	color: red;
+}
+
+
+#card_masage p {
+	padding: 5px;
+}
+
+#card_masage {
+	height: 600px;
+}
+
+
+.bay_1 {
+	text-align: center;
+	color: red;
+}
+
+
+
+
+
+@media screen and (min-width: 771px) and (max-width:900px) {
+	.container{
+		flex-direction: column;
+	}
+	body{
+		overflow-x: hidden;
+	}
+	.wolfteam1 {
+		overflow-x: hidden;
+		border: none;
+	}
+	.mywolf {
+		overflow-x: hidden;
+		border: none;
+	}
+	.mywolf {
+		overflow-x: hidden;
+		background-color: #fff;
+	}
+	.mywolf h2 {
+		overflow-x: hidden;
+		color: #fff;
+	}
+	
+	.wolfteam1 {
+		overflow-x: hidden;
+		background-color: #fff;
+		border: none;
+	}
+	.mywolf {
+		background: none;
+	}
+	.logo1 {
+		width: 100%;
+		height: 200px;
+	}
+	.logo2 {
+		width: 100%;
+		height: 200px;
+		background-image: url(assets/img/logo2.jpg);
+		background-size: cover !important;
+		margin: auto;
+		text-align: center;
+	}
+	
+	
+}
+@media screen and (min-width:1px) and (max-width:700px) {
+	#wolfteam2 {
+		width: 90%;
+	}
+	#wolfteam3 {
+		width: 90%;
+	}
+	.container {
+		width: 100%;
+	}
+	.show1 {
+		width: 300px;
+		height: auto;
+	}
+	.show2 {
+		width: 300px;
+		height: auto;
+	}
+	#mmuny1 {
+		height: 40px;
+	}
+	.teamm1 {
+		width: 90%;
+	}
+	.a7mad1 {
+		overflow: hidden;
+		width: 1px;
+		height: 1px;
+	}
+	.a7mad1 img {
+		overflow: hidden;
+		width: 1px;
+		height: 1px;
+	}
+	.textt1 {
+		width: 90%;
+		height: 300px;
+		font-size: 18px;
+		margin: auto;
+		border: 2px solid black;
+		padding: 5px;
+		text-align: center;
+		overflow: hidden;
+	}
+	.textt1 p {
+		text-align: center;
+		margin: auto;
+		color: black;
+		font-size: 18px;
+		margin-top: 90px;
+		overflow: hidden;
+	}
+	fieldset {
+		width: 90%;
+	}
+	
+}
+
+
+
+@media only screen and (max-width: 770px){
+	.container{
+		flex-direction: column;
+	}
+	body{
+		overflow-x: hidden;
+	}
+	.wolfteam1 {
+		overflow-x: hidden;
+		border: none;
+	}
+	.mywolf {
+		overflow-x: hidden;
+		border: none;
+	}
+	.mywolf {
+		overflow-x: hidden;
+		background-color: #fff;
+	}
+	.mywolf h2 {
+		overflow-x: hidden;
+		color: #fff;
+	}
+	
+	.wolfteam1 {
+		overflow-x: hidden;
+		background-color: #fff;
+		border: none;
+	}
+	.mywolf {
+		background: none;
+	}
+	.logo1 {
+		width: 100%;
+		height: 200px;
+	}
+	.logo2 {
+		width: 100%;
+		height: 200px;
+		background-image: url(assets/img/logo2.jpg);
+		background-size: cover !important;
+		margin: auto;
+		text-align: center;
+	}
+		
+	
+	
+}
+@media screen and (min-width:1px) and (max-width:700px) {
+	#wolfteam2 {
+		width: 90%;
+	}
+	#wolfteam3 {
+		width: 90%;
+	}
+	.container {
+		width: 100%;
+	}
+	.show1 {
+		width: 300px;
+		height: auto;
+	}
+	.show2 {
+		width: 300px;
+		height: auto;
+	}
+	#mmuny1 {
+		height: 40px;
+	}
+	.teamm1 {
+		width: 90%;
+	}
+	.a7mad1 {
+		overflow: hidden;
+		width: 1px;
+		height: 1px;
+	}
+	.a7mad1 img {
+		overflow: hidden;
+		width: 1px;
+		height: 1px;
+	}
+	.textt1 {
+		width: 90%;
+		height: 300px;
+		font-size: 18px;
+		margin: auto;
+		border: 2px solid black;
+		padding: 5px;
+		text-align: center;
+		overflow: hidden;
+	}
+	.textt1 p {
+		text-align: center;
+		margin: auto;
+		color: black;
+		font-size: 18px;
+		margin-top: 90px;
+		overflow: hidden;
+	}
+	fieldset {
+		width: 90%;
+	}
+	#mhmod111{
+		font-size: 33px;
+	}
+	.show2 input[type="submit"] {
+		font-size: 12px;
+		padding: 3px;
+		margin: auto;
+		text-align: center;
+	}
+	.show2 {
+		height: 410px;
+	}
+	#card_masage {
+		height: 600px;
+	}
+	
+}
+
+
+
